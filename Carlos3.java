@@ -9,5 +9,9 @@ public class Carlos3 {
         String nombre =sc.nextLine();
         System.out.println("hola " + nombre);
         
+        int suma = 0;
+        for (int i = 0; i<=5; i++){
+            System.out.println(suma + "+" +i );
+        
     }
 }
