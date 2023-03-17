@@ -12,6 +12,8 @@ public class Carlos3 {
         int suma = 0;
         for (int i = 0; i<=5; i++){
             System.out.println(suma + "+" +i );
-        
+            suma = suma +i;
+            System.out.println("la suma de los 5 ptimeros numeros es: " + suma);
+        }
     }
 }
